@@ -1,11 +1,11 @@
 body {
   background-color: #aacde3;
-  color: #ffe6fc;
+  color: black;
   padding: 40px;
 }
 
 h1 {
-  color: #ffe6fc;
+  color: black;
   background-image: url("yellow-gingham.jpg");
   background-color: #b2a6e0;
   font-family: "Brush Script MT", cursive;
