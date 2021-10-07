@@ -1,0 +1,77 @@
+body {
+  background-color: #aacde3;
+  color: #ffe6fc;
+  padding: 40px;
+}
+
+h1 {
+  color: #ffe6fc;
+  background-image: url("#");
+  background-color: #b2a6e0;
+  font-family: "Brush Script MT", cursive;
+  border: 2px dotted white;
+}
+
+p {
+  color: gray;
+  font-family: "Garamond", Serif;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
+aside {
+  background-image: url("#");
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+  height: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #b2a6e0;
+  border: 2px dotted white;
+  height: 50%;
+  position: fixed;
+  overflow: auto;
+  background-image: url("#");
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: 2px dotted white;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: pink;
+  color: white;
+  border-bottom: 2px dotted white;
+}
+
+main {
+  border: 1px solid #000000;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+/*   li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+} */
+
+li:last-child {
+  border-bottom: none;
+}
